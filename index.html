@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Math Facts</title>
+    </head>
+    <body>
+        <h1>Math Facts</h1>
+        <p>Choose the minimum value and maximum value, as well as the type of problems you would
+            like. When you click generate the result will be shown in a separate tab.
+        </p>
+
+        <form id="form" target="_blank">
+            <p>
+                <label>Minimum Value</label>
+                <br>
+                <input name="min" type="number" value="0">
+            </p>
+            <p>
+                <label>Maximum Value</label>
+                <br>
+                <input name="max" type="number" value="10">
+            </p>
+            <p>
+                <label>Problem Type</label>
+                <br>
+                <select name="op">
+                    <option selected="true">addition</option>
+                    <option>subtraction</option>
+                    <option>multiplication</option>
+                    <option>division</option>
+                </select>
+            </p>
+            <p>
+                <label>Number of Rows</label>
+                <br>
+                <input name="rows" type="number" value="6">
+                Six is usually good for printing.
+            </p>
+            <p>
+                <label>Number of Columns</label>
+                <br>
+                <input name="cols" type="number" value="6">
+                Six is usually good for printing.
+            </p>
+            <input type="submit" value="Generate">
+        </form>
+    </body>
+</html>
